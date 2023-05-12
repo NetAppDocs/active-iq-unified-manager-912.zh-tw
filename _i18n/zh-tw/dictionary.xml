@@ -775,7 +775,6 @@
   <block id="90ef461f23841e1c3dc26580247959fd" category="list-text">最小分配：是使用「已分配空間」或「已用空間」來判斷最大處理量（尖峰）IOPS。</block>
   <block id="f6d81ff30a84faf845ece49601784b0a" category="list-text">預期延遲：儲存輸入/輸出作業的預期平均延遲。</block>
   <block id="a4918d1e2d3364601712640b61668ac3" category="list-text">共享：對於傳統QoS原則、原則群組中定義的處理量值是否會在多個物件之間共用。</block>
-  <block id="3e8dedd9367cf7dda99efa4648b40a68" category="list-text">相關物件：指派給QoS原則群組的工作負載數量。您可以按一下QoS原則群組名稱旁的展開按鈕（）、以檢視原則群組的詳細資料。</block>
   <block id="3cd90a107dd83598c6f4b8687b8ad89e" category="list-text">已分配容量：QoS原則群組中物件目前使用的空間量。</block>
   <block id="b0ce459d424ac8a8bf4972ced4fa34af" category="list-text">相關物件：指派給QoS原則群組的工作負載數量、並分隔成磁碟區和LUN。您可以按一下號碼、瀏覽至提供所選磁碟區或LUN詳細資料的頁面。</block>
   <block id="164468e54e30a0519a3dbef0f4a929a6" category="inline-link-macro">使用QoS原則群組資訊來管理效能</block>
@@ -3481,7 +3480,6 @@
   <block id="ec42faa3ead49a8b30ba8625345423b8" category="paragraph">隨即顯示受監控叢集的清單。</block>
   <block id="5627136cfa219c91be032bfe00b32183" category="list-text">在「*健全狀況：所有叢集*」檢視中、按一下您要檢視MetroCluster 其內容的叢集名稱。在「*叢集/健全狀況詳細資料*」頁面上、按一下「* MetroCluster 還原複寫*」索引標籤。</block>
   <block id="97e6ec6e4baff4ed6d4035d75d3c5ddd" category="paragraph">要複寫之版本資訊的拓撲MetroCluster 會顯示在對應叢集物件區域的本機站台上、並顯示有關正在鏡射資料之遠端站台的資訊。如果將指標移到圖示上、您可以檢視所產生事件的詳細資訊。</block>
-  <block id="bcd77e19082ab48b2d951080763c8616" category="paragraph">您可以使用中顯示的資訊來修正任何複寫問題。如果MetroCluster 發現在您的支援功能組態中有鏡射問題、您必須登入System Manager或存取ONTAP 該CLI來解決問題。</block>
   <block id="38674b9db4ed0276a9c44646f4cf5741" category="list-text">依照下列順序停止Unified Manager服務及相關的MySQL軟體：<block ref="4e7847326e90b1f0063c89995d7982a7" prefix=" " category="inline-code"></block></block>
   <block id="00a0d3827fe90016d54a587539a1bb1f" category="paragraph"><block ref="3ea411a881e8de6734ab1f259a5102ce" prefix="" category="inline-code"></block></block>
   <block id="43e95b1db661f25b270f2cb998751a9c" category="list-text">執行<block ref="5203f21db9e105b1e8c04b88735772ca" prefix=" " category="inline-code"></block> 設定備份目錄的SE Linux類型命令：</block>
@@ -11903,4 +11901,7 @@
   <block id="3af868c1abe702694a4c968a4cef3420" category="list-text">建立原則群組。</block>
   <block id="fbb65b23c43fdbaf045d7005e50554de" category="list-text">新增或移除原則群組中的工作負載。</block>
   <block id="4b8e97b0469700a862a32765111381fa" category="list-text">在原則群組之間移動工作負載。</block>
+  <block id="db3375d7decfbb29e343dc2213616878" category="paragraph">您可以使用叢集/健全狀況詳細資料頁面中顯示的資訊來修正任何複寫問題。如果MetroCluster 發現在您的支援功能組態中有鏡射問題、您必須登入System Manager或存取ONTAP 該CLI來解決問題。</block>
+  <block id="c438f7aec6602f34fb279fdfb89b02c7" category="list-text">相關物件：指派給QoS原則群組的工作負載數量。您可以按一下「Expand（展開）」按鈕（<block ref="5bc06105dc11797d871e45be810a1285" category="inline-image-macro-rx" type="image"></block>）在QoS原則群組名稱旁、檢視原則群組的詳細資料。</block>
+  <block id="c2c8552adcdf172b368e6fec79ced7cb" category="list-text">以 Windows 系統管理員身分啟動 PowerShell 或命令提示字元。</block>
 </blocks>
