@@ -42,6 +42,7 @@
   <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" />
   <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" />
   <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" />
   <link rel='stylesheet' href='/zh-tw/active-iq-unified-manager-912/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
     function addAdobeLaunch(adobeId) {
       var head = document.getElementsByTagName('head')[0];
@@ -214,7 +215,7 @@
     </li>
     
   </ul>
-</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912/issues/new?body=Page%3A%20[新增叢集](https://docs.netapp.com/zh-tw/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html)&template=public-issue-template.md" class="page-nav-contribute-link" role="button"><img src="/zh-tw/active-iq-unified-manager-912/images/discuss-sm.svg" alt="" class="github-icon" />要求變更文件</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912/blob/main/storage-mgmt/task_add_clusters.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-tw/active-iq-unified-manager-912/images/edit-sm.svg" alt="" class="github-icon" />編輯此頁面</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-tw/active-iq-unified-manager-912/images/article-sm.svg" alt="" class="github-icon" />瞭解如何作出貢獻</a></div>
+</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912.zh-tw/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/zh-tw/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html&page-title=新增叢集" class="page-nav-contribute-link" role="button"><img src="/zh-tw/active-iq-unified-manager-912/images/discuss-sm.svg" alt="" class="github-icon" />要求變更文件</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912/blob/main/storage-mgmt/task_add_clusters.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-tw/active-iq-unified-manager-912/images/edit-sm.svg" alt="" class="github-icon" />編輯此頁面</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-tw/active-iq-unified-manager-912/images/article-sm.svg" alt="" class="github-icon" />瞭解如何作出貢獻</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">在此頁面上</div>
@@ -307,8 +308,8 @@
           data-did-you-mean="搜尋 {suggestion}。"
           data-no-results-found-did-you-mean="找不到符合 {query} 的相關結果。您是否要找的是{suggestion}？"
           data-results-found="找到 {hitCount} 筆結果"
-          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
-          data-error-reset="Reset Search"
+          data-error-message="很抱歉，擷取結果時發生問題。請再試一次。"
+          data-error-reset="重設搜尋"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -349,6 +350,8 @@
           <a href="https://docs.netapp.com/es-es/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
         </li><li>
           <a href="https://docs.netapp.com/fr-fr/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/it-it/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" target="_self"><span translate="no" class="notranslate">Italiano</span></a>
         </li></ul>
     </div>
     <!-- End Language Selector -->
@@ -11444,7 +11447,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-05-18 18:27:15 +0000">05/18/2023</time>
+    <time datetime="2023-05-23 20:25:57 +0000">05/23/2023</time>
     
   
 
@@ -11519,11 +11522,11 @@
 </table>
 </div>
 <div class="paragraph">
-<p><strong>用戶端認證</strong>：驗證期間用於ONTAP 從Sfor接收到的EMS訊息。此證書歸ONTAP 此部門所有、在Unified ONTAP Manager中新增一個叢集時必須提供此證書。您無法將已過期憑證的叢集新增至Unified Manager、如果用戶端憑證已過期、則應在新增叢集之前重新產生叢集。不過、如果此憑證已新增且正由Unified Manager使用的叢集過期、則EMS訊息會繼續與過期的憑證搭配運作。如需建立憑證的相關資訊、請參閱知識庫（KB）文章 https://["如何在ONTAP System Manager使用者介面中更新自我簽署的認證"^]。</p>
+<p><strong>用戶端認證</strong>：驗證期間用於ONTAP 從Sfor接收到的EMS訊息。此證書歸ONTAP 此部門所有、在Unified ONTAP Manager中新增一個叢集時必須提供此證書。您無法將已過期憑證的叢集新增至Unified Manager、如果用戶端憑證已過期、則應在新增叢集之前重新產生叢集。不過、如果此憑證已新增且正由Unified Manager使用的叢集過期、則EMS訊息會繼續與過期的憑證搭配運作。如需建立憑證的相關資訊、請參閱知識庫（KB）文章 <a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9" target="_blank" rel="noopener">"如何在ONTAP System Manager使用者介面中更新自我簽署的認證"</a>。</p>
 </div>
 </li>
 <li>
-<p>Unified Manager的單一執行個體可支援特定數量的節點。如果您需要監控超出支援節點數的環境、則必須安裝Unified Manager的其他執行個體、以監控部分叢集。若要檢視支援的節點數清單、請參閱 https://["Unified Manager最佳實務做法指南"^]。</p>
+<p>Unified Manager的單一執行個體可支援特定數量的節點。如果您需要監控超出支援節點數的環境、則必須安裝Unified Manager的其他執行個體、以監控部分叢集。若要檢視支援的節點數清單、請參閱 <a href="https://www.netapp.com/media/13504-tr4621.pdf" target="_blank" rel="noopener">"Unified Manager最佳實務做法指南"</a>。</p>
 </li>
 </ul>
 </div>
