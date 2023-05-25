@@ -6798,7 +6798,6 @@
   <block id="788b4a09760f25fdcb777899cd7513ff" category="doc">將主機作業系統從Red Hat Enterprise Linux 7.x升級至8.x</block>
   <block id="1db66d7ea8f6111cd5dc19a357090311" category="paragraph">下列兩個選項的差異在於：在一種情況下、您要在新的8.x伺服器上執行Unified Manager還原、而在另一種情況下、您要在同一部伺服器上執行還原作業。</block>
   <block id="62caf5dae7e9517d51e0ad9b1b63d502" category="paragraph">因為這項工作需要您在Red Hat Enterprise Linux 7.x系統上建立Unified Manager備份、所以只有在準備好完成整個升級程序、Unified Manager才能離線最短時間時、才應該建立備份。在Red Hat Enterprise Linux 7.x系統關閉期間、以及新的Red Hat Enterprise Linux 8.x啟動之前、Unified Manager UI中會出現所收集資料的落差。</block>
-  <block id="5c8561df156cef765ea371a435526be5" category="paragraph">如果Active IQ Unified Manager 您需要檢閱備份與還原程序的詳細指示、請參閱「_支援網上說明_」。</block>
   <block id="c6d4bbfcfa03acaf56f29d4446ff8117" category="paragraph">*使用新的伺服器升級主機作業系統*</block>
   <block id="95756c28f62ecbf913324a758dcfab05" category="paragraph">如果您有備用系統、可以在其中安裝Red Hat Enterprise Linux 8.x軟體、以便在Red Hat Enterprise Linux 7.x系統仍可使用時、在該系統上執行Unified Manager還原、請遵循下列步驟。</block>
   <block id="664b9e4422f3233db722ffb0a28c3f91" category="list-text">使用Red Hat Enterprise Linux 8.x軟體安裝及設定新伺服器。</block>
@@ -6907,7 +6906,6 @@
   <block id="38e6765f489199cbac8d654040013a22" category="doc">Linux安裝的快速入門指示</block>
   <block id="d37bfa9087091a2643ebb8f003e74798" category="paragraph">您可以下載安裝套件、並在實體或虛擬Red Hat Enterprise Linux或CentOS平台上安裝Unified Manager。</block>
   <block id="1e496ca2f7a66d863132588473f14de2" category="section-title">系統需求</block>
-  <block id="1fd2b463bf2d975db21df998b30ccb30" category="list-text">作業系統：Red Hat Enterprise Linux 7.x版和8.x版或CentOS 7.x版（以x86_64架構為基礎）、安裝時使用作業系統安裝程式*軟體選擇*選項中的「Server with GUI」基礎環境</block>
   <block id="480c2974456cfdab733c75db7656f977" category="list-text">RAM：12 GB、CPU：總共9572 MHz</block>
   <block id="dd6993bbff983390c9accd8acbf1ed57" category="list-text">可用磁碟空間：100 GB的磁碟空間<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> 目錄、根分割區中的50 GB。適用於個別安裝的<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block> 和<block ref="72ab0dd25459f7bfe6f0f90e0af20861" prefix=" " category="inline-code"></block> 請確保<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block> 有15 GB、<block ref="72ab0dd25459f7bfe6f0f90e0af20861" prefix=" " category="inline-code"></block> 具有16 GB、及<block ref="d42b9c57d24cf5db3bd8d332dc35437f" prefix=" " category="inline-code"></block> 有10 GB可用空間。</block>
   <block id="dc351b2abbd920b35cff990b6582b9d7" category="inline-link-macro">互通性對照表</block>
@@ -7240,7 +7238,6 @@
   <block id="bd83ea599d4b1bc4b0405111a4f0e137" category="summary">安裝Unified Manager的Linux系統需要特定版本的作業系統和支援軟體。</block>
   <block id="00b445c51af4d8484e4707ea89f09276" category="section-title">作業系統軟體</block>
   <block id="dbbb4ab63646c15ff10f8545fb7cdfb6" category="paragraph">Linux系統必須安裝下列版本的作業系統和支援軟體：</block>
-  <block id="840ec4a41a9ca59255cff17c52cb8305" category="list-text">Red Hat Enterprise Linux 7.x版和8.x版、以x86_64架構為基礎。</block>
   <block id="c103e3707bdc04abe684cb4ef4e84763" category="list-text">基於x86_64架構的CentOS 7.x版。不支援CentOS串流。</block>
   <block id="65f0429f6a80d2b534cf7c4fe5215206" category="paragraph">請參閱互通性對照表、以取得所支援Red Hat Enterprise Linux和CentOS版本的完整且最新清單。</block>
   <block id="f7e4f466dd93f7fcac14a9d6f34be286" category="section-title">第三方軟體</block>
@@ -11904,4 +11901,8 @@
   <block id="db3375d7decfbb29e343dc2213616878" category="paragraph">您可以使用叢集/健全狀況詳細資料頁面中顯示的資訊來修正任何複寫問題。如果MetroCluster 發現在您的支援功能組態中有鏡射問題、您必須登入System Manager或存取ONTAP 該CLI來解決問題。</block>
   <block id="c438f7aec6602f34fb279fdfb89b02c7" category="list-text">相關物件：指派給QoS原則群組的工作負載數量。您可以按一下「Expand（展開）」按鈕（<block ref="5bc06105dc11797d871e45be810a1285" category="inline-image-macro-rx" type="image"></block>）在QoS原則群組名稱旁、檢視原則群組的詳細資料。</block>
   <block id="c2c8552adcdf172b368e6fec79ced7cb" category="list-text">以 Windows 系統管理員身分啟動 PowerShell 或命令提示字元。</block>
+  <block id="92dcea1769a345e14c0d0007acfcd96b" category="list-text">Red Hat Enterprise Linux 7.x 版及 8.0 至 8.6 版、以 x86_64 架構為基礎。</block>
+  <block id="7f65dca42f43809665db6567fcfbc285" category="list-text">作業系統： Red Hat Enterprise Linux 7.x 版和 8.0 版至 8.6 版、或 CentOS 7.x 版（以 x86_64 架構為基礎）、均使用作業系統安裝程式 * 軟體選擇 * 選項的「 Server with GUI 」基礎環境進行安裝</block>
+  <block id="e224c231f2865f8b120f3d2845da5134" category="paragraph">如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Manager、且需要升級至Red Hat Enterprise Linux 8.x、則必須遵循本主題所列的其中一個程序。在這兩種情況下、您都必須在Red Hat Enterprise Linux 7.x系統上建立Unified Manager備份、然後將備份還原至Red Hat Enterprise Linux 8.x系統。請注意、支援的 Red Hat Enterprise Linux 版本從 8.0 到 8.6 。</block>
+  <block id="06d1a3f5a2c1fab663374946419b7a46" category="paragraph">請參閱 <block ref="9a98c86d8dafdd1ad792c075346a9c0b" category="inline-link-macro-rx"></block> 如果您需要檢閱備份與還原程序的詳細指示。</block>
 </blocks>
