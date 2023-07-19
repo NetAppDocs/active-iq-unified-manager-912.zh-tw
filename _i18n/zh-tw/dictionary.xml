@@ -5200,7 +5200,6 @@
   <block id="5a5094f086cece37d0843a7f44251cce" category="paragraph">當Unified Manager安裝在Linux和Windows伺服器上時、MySQL資料庫傾印是預設的備份機制。不過、如果Unified Manager管理大量的叢集和節點、或是MySQL備份需要花費許多小時才能完成、您可以使用Snapshot複本進行備份。此功能適用於Red Hat Enterprise Linux、CentOS Linux系統和Windows。</block>
   <block id="33fc247e555720879316017b076f2029" category="paragraph">資料庫傾印備份是由備份目錄中的單一檔案和資料庫儲存庫目錄中的一或多個檔案所組成。備份目錄中的檔案非常小、因為它只包含指向位於資料庫儲存庫目錄中的檔案的指標、而這些檔案是重新建立備份所需的。</block>
   <block id="2f3b4c9172b561f3e884b4272c129fb6" category="paragraph">第一次產生資料庫備份時、會在備份目錄中建立單一檔案、並在資料庫儲存庫目錄中建立完整備份檔案。下次產生備份時、會在備份目錄中建立單一檔案、並在資料庫儲存庫目錄中建立遞增備份檔案、其中包含與完整備份檔案的差異。當您建立額外的備份時、此程序會持續執行、直到達到最大保留設定為止、如下圖所示。</block>
-  <block id="e7fbcbeb2e1e5f4c9bede03c1fbb8e41" category="image-alt">資料庫備份</block>
   <block id="efbe49949ffa2f8a16f02f4ea7adc56a" category="paragraph">請勿重新命名或移除這兩個目錄中的任何備份檔案、否則任何後續的還原作業都會失敗。</block>
   <block id="cb923ec5ab7e1a642e7b3ba98abfc4f1" category="paragraph">如果您將備份檔案寫入本機系統、則應啟動程序、將備份檔案複製到遠端位置、以便在發生需要完整還原的系統問題時使用。</block>
   <block id="c48f8fd51b32d584ba11d9662e34349b" category="paragraph">在開始備份作業之前Active IQ Unified Manager 、執行完整性檢查、確認所有必要的備份檔案和備份目錄都存在且可寫入。它也會檢查系統上是否有足夠的空間來建立備份檔案。</block>
@@ -11905,4 +11904,5 @@
   <block id="7f65dca42f43809665db6567fcfbc285" category="list-text">作業系統： Red Hat Enterprise Linux 7.x 版和 8.0 版至 8.6 版、或 CentOS 7.x 版（以 x86_64 架構為基礎）、均使用作業系統安裝程式 * 軟體選擇 * 選項的「 Server with GUI 」基礎環境進行安裝</block>
   <block id="e224c231f2865f8b120f3d2845da5134" category="paragraph">如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Manager、且需要升級至Red Hat Enterprise Linux 8.x、則必須遵循本主題所列的其中一個程序。在這兩種情況下、您都必須在Red Hat Enterprise Linux 7.x系統上建立Unified Manager備份、然後將備份還原至Red Hat Enterprise Linux 8.x系統。請注意、支援的 Red Hat Enterprise Linux 版本從 8.0 到 8.6 。</block>
   <block id="06d1a3f5a2c1fab663374946419b7a46" category="paragraph">請參閱 <block ref="9a98c86d8dafdd1ad792c075346a9c0b" category="inline-link-macro-rx"></block> 如果您需要檢閱備份與還原程序的詳細指示。</block>
+  <block id="fb433a9b7897073e3d41673a4e2e35a5" category="image-alt">備份還原</block>
 </blocks>
