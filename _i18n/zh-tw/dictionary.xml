@@ -3534,7 +3534,6 @@
   <block id="fee984743f91b24dec86f77ceb6dd622" category="summary">您可以使用「叢集設定」頁面來檢視叢集的詳細目錄。您可以檢視叢集的詳細資料、例如其名稱或IP位址和通訊狀態。</block>
   <block id="ee45945ca017877dfd40f7584086a95c" category="doc">檢視受監控叢集的清單</block>
   <block id="4fc6414dc545bf81af50810b29da761c" category="list-text">在左導覽窗格中、按一下*儲存管理*&gt;*叢集設定*。+ Unified Manager 管理的儲存環境中的所有叢集都會顯示出來。叢集清單會依集合狀態嚴重性層級欄排序。您可以按一下欄標題、依不同欄位排序叢集。</block>
-  <block id="91d9102f2b20d2487525cb47bf7d79a5" category="summary">適用於《The》、《AIQUM》文件、《UM》文件的文件Active IQ Unified Manager</block>
   <block id="4a58c6ba2ac7cf0f2cd001d223b14e50" category="doc">資訊文件Active IQ Unified Manager</block>
   <block id="c43f49bfb2a365defe9da104160918a2" category="sidebar">Active IQ Unified Manager （ Unified Manager 、前身為 OnCommand Unified Manager ）可讓您從單一介面監控及管理 ONTAP 儲存系統的健全狀況與效能。此文件庫包含 9.12 版的資訊。</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
@@ -3588,7 +3587,6 @@
   <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">適用於更新版本的文件Active IQ Unified Manager</block>
   <block id="ef4b00aa7f2b133711aca050ace6508d" category="sidebar">209.12文件Active IQ Unified Manager</block>
   <block id="f4a82a67b559f4b99078d99e20c3f730" category="sidebar">適用於此產品的文件Active IQ Unified Manager</block>
-  <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">產生自訂報告</block>
   <block id="9304b0fee761c30cb0f91f15de511efc" category="sidebar">建立報告以檢視幾乎已滿的集合體</block>
   <block id="32d8b1bb1bdc5067bfbde495253b3469" category="sidebar">監控及管理叢集健全狀況</block>
@@ -11909,4 +11907,5 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="db99ce16b5159248c143ce69889e1798" category="sidebar">Active IQ Unified Manager 9.12 的文件。</block>
 </blocks>
