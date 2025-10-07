@@ -10752,7 +10752,6 @@
   <block id="357a35aedd0c37deb3a881df778a9bb4" category="list-text">按一下 * 還原 * 。</block>
   <block id="58c0234305a387b4aa60babbbd858295" category="paragraph">還原程序隨即開始。在後端建立工作以完成還原程序。</block>
   <block id="aa2724776cabef1aaa6642e924be93b0" category="list-text">若要檢視工作進度、請從左側導覽窗格瀏覽至*保護&gt;工作*、從工作清單中檢視還原工作的狀態。</block>
-  <block id="f19eba4a48c0d8762f03ea93717fbfea" category="paragraph">如果Cloud Volumes ONTAP 在發生NDMP錯誤的情況下、還原作業在還原HA叢集之間失敗、您可能需要在目的地叢集中新增明確的AWS路由、以便目的地能夠與來源系統的叢集管理LIF通訊。您可以使用BlueXP執行此組態步驟。</block>
   <block id="74ba2177bbfe532b42b0f9def82a24e3" category="summary">「資源池」頁面會顯示現有的資源池及其成員、並可讓您建立、監控及管理資源池、以供資源配置之用。</block>
   <block id="a760c169347b2ecd4636a37b7d04e1ce" category="doc">資源池頁面</block>
   <block id="ba0dc3067ef6e03478bc295dbc0ce214" category="list-text">*建立*</block>
@@ -11907,4 +11906,5 @@
   <block id="06c70b026e4d10bfcd7be2ebfa770d1c" category="paragraph"><block ref="06c70b026e4d10bfcd7be2ebfa770d1c" category="inline-link-rx"></block></block>
   <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
   <block id="03d53e406aee01a758a051ceaf737e76" category="paragraph">法規遵循以<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>為基礎。按一下面板頂端的向右箭頭、即可在「安全性」頁面上檢視所有叢集的安全性詳細資料。如需相關資訊，請參閱 <block ref="c1debbda1f6c52f8ae88dec67250c58d" category="inline-link-macro-rx"></block>。</block>
+  <block id="323f966c65a63cb769e4f899cb19451f" category="paragraph">如果Cloud Volumes ONTAP HA 叢集之間的還原操作因 NDMP 錯誤而失敗，則可能需要在目標叢集中新增明確的 AWS 路由，以便目標可以與來源系統的叢集管理 LIF 進行通訊。您可以使用NetApp控制台執行此設定步驟。</block>
 </blocks>
